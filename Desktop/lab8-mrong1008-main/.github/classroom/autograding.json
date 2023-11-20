@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "pytest -k test_detect_wall_collision",
+      "setup": "sudo -H pip3 install pytest pygame",
+      "run": "pytest -k test_detect_wall_collision",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "pytest -k test_ball_move",
+      "setup": "sudo -H pip3 install pytest pygame",
+      "run": "pytest -k test_ball_move",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "pytest -k test_wall_reflection",
+      "setup": "sudo -H pip3 install pytest pygame",
+      "run": "pytest -k test_wall_reflection",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "pytest -k test_move_paddle",
+      "setup": "sudo -H pip3 install pytest pygame",
+      "run": "pytest -k test_move_paddle",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "pytest -k test_paddle_reflection",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_paddle_reflection",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
